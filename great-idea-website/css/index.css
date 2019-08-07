@@ -1,7 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain)
-*/
+   License: none (public domain) */
 
 html,
 body,
@@ -87,9 +86,9 @@ video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
+    font - size: 100 %;
     font: inherit;
-    vertical-align: baseline;
+    vertical - align: baseline;
 }
 
 
@@ -110,12 +109,12 @@ section {
 }
 
 body {
-    line-height: 1;
+    line - height: 1;
 }
 
 ol,
 ul {
-    list-style: none;
+    list - style: none;
 }
 
 blockquote,
@@ -123,17 +122,17 @@ q {
     quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote: before,
+blockquote: after,
+q: before,
+q: after {
     content: '';
     content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+    border - collapse: collapse;
+    border - spacing: 0;
 }
 
 
@@ -162,10 +161,16 @@ h5 {
 
 /* Your code starts here! */
 
+
+/* container wrapper*/
+
 .wrapper {
     width: 1360px;
     margin: 0 auto;
 }
+
+
+/* nav bar and logo styles*/
 
 nav {
     margin-top: 45px;
@@ -194,51 +199,48 @@ nav a:hover {
     left: 85%;
 }
 
+span {
+    display: inline-block;
+    width: 49%;
+}
+
+
+/* Header styles*/
+
 .get-started {
     display: inline-block;
+    width: 20%;
     margin-left: 115px;
-    margin-top: 70px;
-}
-
-.header-image {
-    position: relative;
-    left: 55%;
-}
-
-.heading {
-    margin-left: 100px;
-}
-
-.heading2 {
-    margin-left: 20px;
-}
-
-.img2 {
-    display: inline-block;
-    margin-top: -400px;
-    margin-left: 55%;
-}
-
-.middle-img {
-    margin-top: 30px;
-    width: 100%;
+    margin-top: 180px;
 }
 
 .get-started h1 {
     font-size: 90px;
 }
 
-h3 {
-    margin-top: 20px;
+h1 {
+    margin-top: -40px;
+}
+
+.img2 {
+    margin-top: -350px;
+    margin-left: 55%;
 }
 
 button {
     margin-left: 30%;
 }
 
-address {
-    letter-spacing: 2px;
-    line-height: 2;
+button:hover {
+    background-color: blue;
+}
+
+
+/* section styles*/
+
+.middle-img {
+    margin-top: 30px;
+    width: 100%;
 }
 
 .section1 {
@@ -246,11 +248,18 @@ address {
     width: 33%;
 }
 
-footer {
-    text-align: center;
+h3 {
+    margin-top: 20px;
 }
 
-span {
-    display: inline-block;
-    width: 49%;
+address {
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
+
+/* Footer styles*/
+
+footer {
+    text-align: center;
 }
